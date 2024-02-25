@@ -1,0 +1,22 @@
+.container-fluid {
+  min-height: 100vh;
+  background: url("https://static.vecteezy.com/system/resources/previews/012/847/559/non_2x/minimal-background-dark-blue-and-light-blue-with-a-line-suitable-for-design-needs-display-website-ui-and-others-free-photo.jpg");
+  background-size: cover;
+}
+.container {
+  color: wheat;
+  min-height: 80vh;
+}
+.col-8 {
+  min-height: 450px;
+}
+.input-group {
+  min-height: 100px;
+  padding: 20px;
+}
+img {
+  max-width: 400px;
+}
+.row {
+  margin-bottom: 50px;
+}

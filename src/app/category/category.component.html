@@ -1,0 +1,18 @@
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-10">
+        <p>Near Sectors</p>
+        <h3>Browse By Category</h3>
+      </div>
+      <div class="col d-flex">
+        <button class="btn btn-primary">View All Categories</button>
+      </div>
+    </div>
+    <div class="col-12 pt-5 d-flex flex-wrap justify-content-evenly">
+      <ng-container *ngFor="let category of categories">
+        <app-type style="width: 30%" [category]="category"></app-type>
+      </ng-container>
+    </div>
+  </div>
+</div>
